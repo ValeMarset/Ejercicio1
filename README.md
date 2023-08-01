@@ -2,7 +2,13 @@
 
 Este es el respositorio del Desafío 1 del programa de nivelación de Personas IT
 
+Letra del ejercicio 1:
+Maquetación básica: En este desafío,te pedimos que realices el maquetado completo de una página web.
+
+La web a maquetar se encuentra debe ser igual a la imagen de este link, los assets para construir esta web se encuentran en la siguiente carpeta.
+
 Comentarios:
+
 -En esta carpeta estan todos los requerimentos del ejercicio 1, por lo que solo esta el maquetado del diseño brindado, no es responsive.
 
 -Para abordar este desafío, implementé el framework Bootstrap.
