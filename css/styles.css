@@ -1,0 +1,90 @@
+body {
+  color: black;
+}
+
+/* Header */
+
+.fondo-color-header {
+  background-image: url("../img/fondoHeader.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 77vh;
+  position: relative;
+}
+
+.figuras-header {
+  background-image: url("../img/figuras.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -40px;
+  clip-path: polygon(
+    100% 49%,
+    92% 60%,
+    79% 70%,
+    62% 79%,
+    46% 80%,
+    23% 76%,
+    0 80%,
+    0 0,
+    100% 0
+  );
+}
+
+header > div > h1 {
+  bottom: 50%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Main */
+
+.img-main {
+  width: 100%;
+}
+
+.style-subtitulo {
+  color: #7862a6;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8em;
+}
+
+.style-parrafo {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+/* Article */
+
+.titulo-article {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-article {
+  background-color: #f8ca93;
+}
+
+.btn-article {
+  border: solid 2px black;
+}
+
+.btn-article:hover {
+  background-color: #f9d5a9;
+  border: solid 2px #f9d5a9;
+  border-color: #f9d5a9;
+}
+
+article {
+  font-family: "Lato", sans-serif;
+}
+/* Footer */
+
+footer {
+  height: 100px;
+}
+.bg-footer {
+  background-color: #7862a6;
+}
